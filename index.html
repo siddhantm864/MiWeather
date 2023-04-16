@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="weather backGr">
+        <header>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <span class="fs-2" style="color: aliceblue;">Weather</span>
+                </a>
+                <nav class="d-inline-flex mt-2 mt-md-2 ms-md-auto">
+                    <form class="d-flex">
+                        <input type="text" placeholder="Search Location" class="form-control me-2 searchField"  />
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Temprature</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title weather1">30 °C</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+
+                                <li>
+                                    <div class="weather2">
+                                        <p>Loca</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="weather3">
+                                        <p><img src="" alt="condition" /></p>
+                                        <span>Condition</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="weather2">
+                                        <span>11:01 - Monday 2022-06-22</span>
+                                    </div>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Astro</h4>
+                        </div>
+                        <div class="card-body" id="card-body1">
+                            <ul class="list-unstyled mt-3 mb-4 ">
+                                <li>
+                                    <div class="one"> <i class="bi bi-sunrise"></i><span></span> </div>
+                                </li>
+                                <li>
+                                    <div class="two"> <i class="bi bi-sunset"></i><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="three"><i class="bi bi-moon"></i><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="four"><i class="bi bi-moon-fill"></i><span></span></div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Wind</h4>
+                        </div>
+                        <div class="card-body" id="card-body1">
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>
+                                    <div class="w1"><i class="bi bi-wind"></i><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="w2"><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="w3"><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="w4"><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="w4"><span></span></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/47c0f5fa85.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
